@@ -1,0 +1,26 @@
+[
+    {
+        "menu": "Home",
+        "route": "/"    
+    },
+    {
+        "menu": "Places",
+        "route": "/places"    
+    },
+    {
+        "menu": "Stories",
+        "route": "/stories"    
+    },
+    {
+        "menu": "Films",
+        "route": "/films"    
+    },
+    {
+        "menu": "About",
+        "route": "/about"    
+    },
+    {
+        "menu": "Let's Talk",
+        "route": "/contact"    
+    }
+]

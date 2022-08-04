@@ -1,0 +1,101 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    /* background: brown; */
+}
+
+.menu_logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: black;
+    padding: 0rem 1rem;
+    transition: all .3s;
+}
+
+.menu_link:hover {
+    color: rgb(211, 159, 85);
+}
+
+.mobileMenu_wrapper {
+    display: none;
+}
+
+.mobileMenu_btn i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.mobileMenu {
+    background: rgb(211, 159, 85);
+    /* padding: 1rem 5rem; */
+    position: fixed;
+    right: -350px;
+    top: 0;
+    height: 100vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: right .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.mobileMenu.active {
+    right: 0;
+}
+
+.mobileMenu_closeBtn {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.mobileMenu_closeBtn i {
+    font-size: 2rem;
+    text-align: end;
+    cursor: pointer;
+    color: white;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.MobileMenu_menu_link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 5rem;
+}
+
+@media screen and (max-width: 1080px) {
+    .menu_logo {
+        font-size: 1.5rem;
+    }
+    .menu {
+        display: none;
+    }
+    .mobileMenu_wrapper {
+        display: contents;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {}
+
+@media screen and (max-width: 490px) {}
+
+/* @media screen and (max-width: 1080px) {}
+
+@media screen and (max-width: 650px) {}
+
+@media screen and (max-width: 490px) {} */
