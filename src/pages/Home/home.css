@@ -1,0 +1,70 @@
+.photography_category {
+    height: 15rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.photography_category.travel_and_wildlife{
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1601626977/Emacon%20Production/_MG_7971_ljafny.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.photography_category.travel_and_wildlife:hover {
+    background-size: 110%;
+}
+
+.photography_category.people_and_culture{
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1601626929/Emacon%20Production/IMG_0194_ehwqcg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.photography_category.people_and_culture:hover {
+    background-size: 110%;
+}
+
+.photography_category.spaces{
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1601626946/Emacon%20Production/IMG_0732-HDR-Edit-Edit_yoyd9u.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.photography_category.spaces:hover {
+    background-size: 110%;
+}
+
+.photography_category.portraits{
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1601627063/Emacon%20Production/IMG_1838_lng3qp.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.photography_category.portraits:hover {
+    background-size: 110%;
+}
+
+.categoryDetails_Wrapper {
+    position: absolute;
+    background: black;
+    height: inherit;
+    width: 100%;
+    opacity: 0.3;
+}
+
+.category_details {
+    color: #fff;
+    padding: 1rem 3rem;
+}
+
+.category_details h2 {
+    position: relative;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .category_details {
+        padding: 1rem 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {}
+
+@media screen and (max-width: 490px) {}
