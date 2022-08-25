@@ -5,15 +5,15 @@
     },
     {
         "menu": "Places",
-        "route": "/places"    
+        "route": "/category?type=places"    
     },
     {
         "menu": "Stories",
-        "route": "/stories"    
+        "route": "/category?type=stories"    
     },
     {
         "menu": "Films",
-        "route": "/films"    
+        "route": "/category?type=films"    
     },
     {
         "menu": "About",

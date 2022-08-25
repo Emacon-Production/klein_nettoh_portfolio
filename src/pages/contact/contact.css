@@ -1,0 +1,97 @@
+.contact_content {
+    padding: 0rem 20rem 2rem 20rem;
+}
+
+.contact_thumbnail img{
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.input-group {
+    position: relative;
+    /*  padding: 1rem 0rem; */
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.input {
+    padding: 18px;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    outline: 2px solid rgb(0, 0, 0);
+    width: 100%;
+}
+
+.input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transition: transform .25s;
+}
+
+.input:focus+.input-label,
+.input:valid+.input-label{
+    transform: translate(10px, -14px) scale(.8);
+    /* color: rgb(211, 159, 85); */
+    color: black;
+    padding-inline: 5px;
+    background-color: #fff;
+}
+
+/* .input:valid+.input-label {
+    transform: translate(10px, -14px) scale(.8);
+    color: rgb(211, 159, 85);
+    padding-inline: 5px;
+    background-color: #fff;
+} */
+
+
+
+.input:is(:focus, :valid) {
+    /* outline-color: rgb(211, 159, 85); */
+    outline-color: black;
+}
+
+.input:not(:focus, :valid) {
+    outline-color: black;
+}
+
+.error_message {
+    color: red;
+    font-size: 15px;
+    padding: 0rem 1rem;
+}
+
+.submit_btn {
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1080px) {
+    .contact_content {
+        padding: 0rem 2rem 2rem 2rem;
+    }
+
+    .input-group {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    .contact_content {
+        padding: 0rem 1rem 2rem 1rem;
+    }
+
+    .input-group {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 490px) {}

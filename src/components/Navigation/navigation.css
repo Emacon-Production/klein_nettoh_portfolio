@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem 1rem;
+    z-index: 1;
     /* background: brown; */
 }
 
@@ -49,7 +50,7 @@
     height: 100vh;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition: right .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    z-index: 1;
+    z-index: 1000 !important;
 }
 
 .mobileMenu.active {
@@ -77,6 +78,7 @@
     text-decoration: none;
     color: white;
     padding: 1rem 5rem;
+    z-index: 1000 !important;
 }
 
 @media screen and (max-width: 1080px) {
