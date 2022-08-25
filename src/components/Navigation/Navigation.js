@@ -54,7 +54,7 @@ function Navigation() {
                     {
                         menuData &&
                         menuData.map((menu, index) => (
-                            <Link to={menu.route} key={index} className='MobileMenu_menu_link'>{menu.menu}</Link>
+                            <Link to={menu.route} key={index} className='MobileMenu_menu_link' onClick={() => closeMenu()}>{menu.menu}</Link>
                         ))
                     }
                 </div>

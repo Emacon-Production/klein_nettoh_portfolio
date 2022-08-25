@@ -1,0 +1,22 @@
+[
+    {
+        "category": "Nakuru",
+        "css_background": "travel_and_wildlife",
+        "target": "/media?category=travel_and_wildlife"
+    },
+    {
+        "category": "Turkana",
+        "css_background": "people_and_culture",
+        "target": "/media?category=people_and_culture"
+    },
+    {
+        "category": "Isiolo",
+        "css_background": "spaces",
+        "target": "/media?category=spaces"
+    },
+    {
+        "category": "Maasai Mara",
+        "css_background": "portraits",
+        "target": "/media?category=portraits"
+    }
+]

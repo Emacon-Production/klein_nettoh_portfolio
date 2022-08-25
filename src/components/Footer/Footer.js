@@ -18,7 +18,7 @@ function Footer() {
       <div className='copyright'>
         <p className="copyright_details">
             {`Copyright © ${new Date().getFullYear()} Klein Nettoh. `}
-            {`Proudly created by `}
+            {`Designed and Developed by `}
             <a color="inherit" href="https://victor-githui.netlify.app/" target="_blank" rel="noreferrer">
                 Victor Githui
             </a>{' '}

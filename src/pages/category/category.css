@@ -1,0 +1,53 @@
+.coming_soon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming_soon img {
+    height: 15rem;
+}
+
+.films_wrapper {
+    padding: 1rem 10rem 3rem 10rem;
+}
+
+.film {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.film p {
+    text-align: center;
+}
+
+.film h3 {
+    text-align: center;
+}
+
+.film iframe {
+    width: 760px;
+    height: 415px;
+}
+
+@media screen and (max-width: 1080px) {
+    .films_wrapper {
+        padding: 1rem 1rem 3rem 1rem;
+    }
+
+    .film iframe {
+        width: 760px;
+        height: 430px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .film iframe {
+        width: 420px;
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 490px) {}
