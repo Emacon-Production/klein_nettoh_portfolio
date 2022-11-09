@@ -4,14 +4,6 @@
         "route": "/"    
     },
     {
-        "menu": "Places",
-        "route": "/category?type=places"    
-    },
-    {
-        "menu": "Stories",
-        "route": "/category?type=stories"    
-    },
-    {
         "menu": "Films",
         "route": "/category?type=films"    
     },

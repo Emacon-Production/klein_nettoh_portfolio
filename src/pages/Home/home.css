@@ -1,30 +1,46 @@
+.photography_categoryWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 5rem;
+}
 .photography_category {
-    height: 15rem;
+    height: 25rem;
+    width: 47%;
+    margin: 0rem 1rem 1rem 0rem;
     cursor: pointer;
     transition: all .3s;
 }
 
-.photography_category.travel_and_wildlife{
-    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1601626977/Emacon%20Production/_MG_7971_ljafny.jpg) no-repeat;
+.photography_category.travel{
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1667980199/Klein%20Nettoh%20Portfolio/travel/kleinNettoh-3508_orewlt.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     transition: all 1s ease-in-out;
 }
-.photography_category.travel_and_wildlife:hover {
+.photography_category.travel:hover {
     background-size: 110%;
 }
 
-.photography_category.people_and_culture{
-    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1601626929/Emacon%20Production/IMG_0194_ehwqcg.jpg) no-repeat;
+.photography_category.people{
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1667980092/Klein%20Nettoh%20Portfolio/people/DSC_4078_gixr5s.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
-.photography_category.people_and_culture:hover {
+.photography_category.people:hover {
+    background-size: 110%;
+}
+
+.photography_category.wildlife{
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1667979990/Klein%20Nettoh%20Portfolio/wildlife/DSC_0467_uv19xb.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.photography_category.wildlife:hover {
     background-size: 110%;
 }
 
 .photography_category.spaces{
-    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1601626946/Emacon%20Production/IMG_0732-HDR-Edit-Edit_yoyd9u.jpg) no-repeat;
+    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1667980106/Klein%20Nettoh%20Portfolio/spaces/DSC_8368_tjciqy.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -32,18 +48,9 @@
     background-size: 110%;
 }
 
-.photography_category.portraits{
-    background: url(https://res.cloudinary.com/emacon-production/image/upload/v1601627063/Emacon%20Production/IMG_1838_lng3qp.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.photography_category.portraits:hover {
-    background-size: 110%;
-}
-
 .categoryDetails_Wrapper {
     position: absolute;
-    background: black;
+    /* background: black; */
     height: inherit;
     width: 100%;
     opacity: 0.3;
@@ -63,8 +70,20 @@
     .category_details {
         padding: 1rem 1rem;
     }
+    .photography_categoryWrapper {
+        padding: 0rem 2rem;
+    }
 }
 
-@media screen and (max-width: 650px) {}
+@media screen and (max-width: 650px) {
+    .photography_categoryWrapper {
+        padding: 0rem 1rem;
+    }
+
+
+    .photography_category {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 490px) {}
