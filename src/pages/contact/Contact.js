@@ -22,7 +22,7 @@ function Contact() {
             </div>
 
             <div className='contact_thumbnail'>
-                <img src='https://res.cloudinary.com/emacon-production/image/upload/v1601626977/Emacon%20Production/_MG_7971_ljafny.jpg' alt='Contact Klein Nettoh' />
+                <img src='https://res.cloudinary.com/emacon-production/image/upload/v1667980213/Klein%20Nettoh%20Portfolio/wildlife/kleinnettoh-4065_phvm1f.jpg' alt='Contact Klein Nettoh' />
             </div>
 
             <div className='contact_projects'>

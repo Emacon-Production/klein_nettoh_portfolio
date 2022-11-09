@@ -1,22 +1,22 @@
 [
     {
-        "category": "Travel & Wildlife",
-        "css_background": "travel_and_wildlife",
-        "target": "/media?category=travel_and_wildlife"
+        "category": "Travel",
+        "css_background": "travel",
+        "target": "/media?category=travel"
     },
     {
-        "category": "People & Culture",
-        "css_background": "people_and_culture",
-        "target": "/media?category=people_and_culture"
+        "category": "People",
+        "css_background": "people",
+        "target": "/media?category=people"
+    },
+    {
+        "category": "wildlife",
+        "css_background": "wildlife",
+        "target": "/media?category=wildlife"
     },
     {
         "category": "Spaces",
         "css_background": "spaces",
         "target": "/media?category=spaces"
-    },
-    {
-        "category": "Portraits",
-        "css_background": "portraits",
-        "target": "/media?category=portraits"
     }
 ]
